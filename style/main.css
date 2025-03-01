@@ -103,18 +103,19 @@ body {
 
 .six img {
   display: inline-block;
-  height: 350px;
+  height: 450px;
   max-width: 100%;
   /* height: auto; */
 }
 
 .six .hat {
-  left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
-  top: -35%;
+  left: 10%;
+  top: 90%;
+  transform: translateX(-50%); /* Centers the hat horizontally */
   width: 80px;
 }
+
 
 .baloons img {
   display: inline-block;
